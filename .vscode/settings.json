@@ -1,0 +1,44 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+
+  "eslint.useFlatConfig": true,
+
+  "tailwindCSS.emmetCompletions": true,
+
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}
